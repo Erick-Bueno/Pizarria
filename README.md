@@ -1,0 +1,3 @@
+
+
+Odeio tudo e todos
