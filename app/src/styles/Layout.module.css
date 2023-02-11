@@ -1,0 +1,79 @@
+.contGeral {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/images/fundinho.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+.contTop{
+    flex: 1;
+}
+
+
+.side{
+    float: right;
+    border-left: 3px solid rgba(255, 255, 255, 0.664);
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-right: 40px;
+    padding: 15px;
+    padding-left: 30px;
+   
+    
+}
+.side ul{
+    list-style: none;
+    padding-bottom: 80px;
+}
+.side ul li{
+    padding-bottom: 30px;
+    
+}
+
+.side ul li a{
+    text-decoration: none;
+    transition: 0.2s;
+    
+}
+
+.side ul li a:hover{
+    color: rgb(230, 16, 52);
+    
+}
+.siga{
+    color:rgb(230, 16, 52); 
+    
+}
+.contImg{
+    margin-top: 10px;
+    position: relative;
+    
+}
+.contImg img{
+    margin-left: 5px;
+}
+.facered{
+    position: absolute;
+    left: 32px;
+    display: none;
+}
+
+.facebuk{
+    filter: brightness(100);
+   
+    cursor: pointer;
+}
+.facebuk:hover{
+    filter: brightness(100%);
+}
+.instagram{
+    filter: brightness(100);
+   
+    cursor: pointer;
+}
+.instagram:hover{
+    filter: brightness(100%);
+}
+
+
