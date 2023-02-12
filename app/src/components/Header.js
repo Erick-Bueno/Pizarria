@@ -26,7 +26,7 @@ export default function Cabeca(){
                     <li className={styles.contMenuList}><img className={styles.icon} src='/images/cardapio.png'/><a>MENU</a></li>
                     <li className={styles.contMenuList}><img className={styles.icon} src='/images/home.png'/><a>HOME</a></li>
                     <li className={styles.contMenuList}><img className={styles.icon} src='/images/informacoes.png'/><a>SOBRE</a></li>
-                    <li className={styles.contMenuList}><img className={styles.icon} src='/images/telefonem.png'/><a>CONTATO</a></li>
+                    <li className={styles.contMenuList}><img className={styles.icon} src='/images/telefoneM.png'/><a>CONTATO</a></li>
                     <li className={styles.contMenuList}><img className={styles.icon} src='/images/loc.png'/><a>LOCALIZAÇÃO</a></li>
                     <li className={styles.contMenuList}><img className={styles.icon} src='/images/etiqueta.png'/><a>PREÇOS</a></li>
                     <li className={styles.contMenuList}><img className={styles.icon} src='/images/promocoes.png'/><a>PROMOÇÕES</a></li>

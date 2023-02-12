@@ -5,6 +5,7 @@
     font-family: 'PT Sans Narrow', sans-serif;
     margin-top: 30px;
     font-size: 18px;
+    overflow: hidden;
     
     
 }
@@ -50,7 +51,7 @@
     top: 0;
     right: 0;
     width: 0px;
-    overflow: hidden;
+   
     
 
 
@@ -116,7 +117,8 @@
 .abrirmenu{
     width: 0%;
     transition: 0.5s;
-    box-shadow:  -4px 6px 14px 4px rgba(0,0,0,0.85)
+    box-shadow:  -4px 6px 14px 4px rgba(0,0,0,0.85);
+    
 }
 @media screen and (max-width:768px){
     .Iconmenu{
