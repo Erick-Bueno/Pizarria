@@ -13,7 +13,11 @@
 .ma{
     position: absolute;
     left: 600px;
+   
+    
+    
 }
+
 .slogan{
     font-family: 'Oswald', sans-serif;
     
@@ -32,6 +36,7 @@
    font-size: 14px;
    cursor: pointer;
    transition: 0.2s;
+  
 }
 .comprar:hover{
     background-color: rgb(179, 14, 42);
@@ -64,4 +69,106 @@
 }
 .contSeta{
     position: relative;
+}
+.pizzazzona{
+    position: absolute;
+    left: -130px;
+    top: 150px;
+    width: 700px;
+    transform: rotate(50deg);
+}
+
+@media screen and (max-width:2560px) {
+    .ma{
+        left: 1400px;
+    }
+    .pizzazzona{
+        left: 600px;
+       top: 100px;
+    }
+}
+@media screen and (max-width:2084px) {
+    .pizzazzona{
+        left: 400px;
+    }
+    .ma{
+        left: 1200px;
+    }
+}
+@media screen and (max-width:1920px){
+        .pizzazzona{
+            left: 200px;
+        }
+        .ma{
+            left: 1000px;
+        }
+}
+@media screen and (max-width:1552px) {
+    .pizzazzona{
+        left: -80px;
+        top:190px
+    }
+    .ma{
+        left: 700px;
+    }
+}
+@media screen and (max-width:1440px){
+    .pizzazzona{
+        left: -130px;
+        top: 150px;
+    }
+    .ma{
+        left: 600px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .pizzazzona{
+        left: -250px;
+    }
+    .ma{
+        left: 450px;
+    }
+}
+@media screen and (max-width:1000px){
+    .pizzazzona{
+        left: -350px;
+    }
+    .ma{
+        left: 350px;
+    }
+}
+@media screen and (max-width:425px) {
+    .pizzazzona{
+        width: 400px;
+        left: -250px
+    }
+    .ma{
+        width: 200px;
+        
+        left: 150px;
+    }
+    .fonte{
+        font-size: 40px;
+    }
+    .verMenu{
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+    .fonte{
+        width: 200px;
+    }
+}
+@media screen and (max-width:320px){
+    .logo{
+        width: 10px;
+    }
+    
+}
+@media screen and (max-width:320px){
+    .pizzazzona{
+        left: -280px;
+    }
+    .ma{
+        left: 100px;
+    }
 }

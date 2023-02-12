@@ -22,7 +22,9 @@ export default function Home() {
               </style>
                 
       </Head>
+      <img className={styles.pizzazzona} src='/images/pizzazona.png'/>
       < main className={styles.ma}>
+        
         <p className={styles.fonte}><span className={styles.sabor}>SABOR</span> DA LUA,<br/>MELHOR NÃO HÁ </p>
         <p className={styles.slogan}>NOSSO MENU AGRADA QUALQUER TIPO DE GOSTO. <br/> PARE PARA UMA RAPIDA REFEIÇÃO OU RECEBA SUAS <br/> PIZZAS FAVORITAS NA SUA PORTA AGORA MESMO. </p>
         <section><button className={styles.comprar}>COMPRAR AGORA</button> <span className={styles.contSeta}><button className={styles.verMenu}>VER O MENU</button> <img className={styles.seta} src='/images/seta.png' width={15}/></span></section>

@@ -2,13 +2,18 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url('/images/fundinho.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100%;
+    
+   
+ 
+    
   }
 .contTop{
     flex: 1;
+    background-color: rgb(39, 35, 35);
+    padding-bottom:150px;
+   
+   
+    
 }
 
 
@@ -77,3 +82,11 @@
 }
 
 
+@media screen and (max-width:768px){
+    .side{
+        display: none;
+    }
+    .contTop{
+        padding-bottom: 400px;
+    }
+}

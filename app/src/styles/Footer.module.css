@@ -1,3 +1,126 @@
 .rod{
-    background-color:  red;
+  
+   
+    display: flex;
+    
+    position: relative;
+    justify-content: space-between;
+    
+
+    
+
+  
+}
+.fut{
+    position: relative;
+    background-color:rgb(7, 7, 7);
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-right: 150px;
+    padding-left: 150px;
+ 
+
+}
+.footList{
+    list-style: none;
+    padding: 50px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    
+   
+    
+   
+}
+.trab{
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-top: 40px;
+   
+    font-size: 20px;
+   
+}
+.horas{
+    font-family: 'PT Sans Narrow', sans-serif;
+    
+    margin-top: 10px;
+    padding-bottom: 35px;
+}
+.semana{
+    color: rgb(230, 16, 52);
+    
+}
+.footList li a{
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.footList li a:hover{
+    color: rgb(230, 16, 52);
+    
+}
+
+
+.cop{
+    font-family: 'PT Sans Narrow', sans-serif;;
+    font-weight: bolder;
+ 
+   text-align: center;
+  
+   
+   
+   
+}
+.equipe{
+    padding-bottom: 20px;
+    color: rgb(230, 16, 52);
+}
+.logo{
+    margin-right: 50px;
+}
+.list{
+    display: flex;
+}
+
+@media screen and (max-width:768px) {
+   
+    .logo{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        bottom: 40px;
+        right: 150px;
+    }
+}
+@media screen and (max-width:425px){
+    .ColHor{
+        display: none;
+    }
+    .fut{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .logo{
+        right: 120px;
+        bottom: 1px;
+    }
+    .footList{
+        padding: 20px;
+        margin-left: 40px;
+    }
+    .logo{
+        left: 140px;
+    }
+}
+@media screen and (max-width:375px){
+    .logo{
+        left: 120px;
+    }
+}
+@media screen and (max-width:320px){
+    .logo{
+        left: 120px;
+    }
+    .footList{
+        padding: 11px;
+        
+    }
+   
 }
