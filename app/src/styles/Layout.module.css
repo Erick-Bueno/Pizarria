@@ -9,7 +9,9 @@
   }
 .contTop{
     flex: 1;
-    background-color: rgb(39, 35, 35);
+    background-image: url('/images/tetdef.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-bottom:150px;
    
    
