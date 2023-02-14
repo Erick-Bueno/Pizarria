@@ -90,3 +90,8 @@
         padding-bottom: 400px;
     }
 }
+@media screen and (max-width:425px){
+    .contTop{
+        padding-bottom: 450px;
+    }
+}

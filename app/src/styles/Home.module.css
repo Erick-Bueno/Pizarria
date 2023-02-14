@@ -121,6 +121,14 @@
         left: 600px;
     }
 }
+@media screen and (max-width:1164px){
+    .pizzazzona{
+        left: -250px;
+    }
+    .ma{
+        left: 450px;
+    }
+}
 @media screen and (max-width:1024px) {
     .pizzazzona{
         left: -250px;
@@ -137,13 +145,94 @@
         left: 350px;
     }
 }
+@media screen and  (max-width:900px) {
+    .pizzazzona{
+        left: -450px;
+    }
+    .ma{
+        left: 250px;
+    }
+}
+@media screen and (max-width:799px){
+    .ma{
+        left: 230px;
+       
+    }
+    .fonte
+    {
+        font-size: 60px;
+    }
+    
+}
+@media screen and (max-width:765px) {
+    .fonte{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width:765px) {
+    .fonte{
+        font-size: 60px;
+        width: 300px;
+    }
+    .slogan{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:529px) {
+ .ma{
+    left: 210px;
+ }   
+ 
+}
+
+@media screen and (max-width:508px) {
+    .ma{
+        left: 150px;
+    }
+    .pizzazzona{
+        left: -500px;
+    }
+}
+@media screen and (max-width:449px) {
+    .contbtn{
+        display:flex;
+        flex-direction: column;
+        margin-left: 10px;
+        width: 150px;
+    }
+    .verMenu{
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    .seta{
+        right: 20px;
+        top: 12px;
+    }
+    .fonte{
+        font-size: 40px;
+        width: 250px;
+    }
+    .pizzazzona{
+        left: -500px;
+    }
+    .ma{
+        left: 170px;
+        width: 200px;
+    }
+    .slogan{
+        font-size: 17px;
+    }
+   
+    
+}
+
 @media screen and (max-width:425px) {
     .pizzazzona{
         width: 400px;
         left: -250px
     }
     .ma{
-        width: 200px;
+        width: 260px;
         
         left: 150px;
     }
@@ -155,7 +244,58 @@
         margin-left: 35px;
     }
     .fonte{
-        width: 200px;
+        width: 250px;
+        font-size: 50px;
+    }
+    .slogan{
+        font-size: 20px;
+    }
+    .contbtn{
+        margin-left: 10px;
+    }
+    .seta{
+        top: 23px;
+    }
+    
+
+}
+@media screen and (max-width:407px){
+    .ma{
+        width: 250px;
+    }
+}
+@media screen and (max-width:396px) {
+    .ma{
+        left: 130px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .fonte{
+        font-size: 40px;
+        width: 220px;
+    }
+    .pizzazzona{
+        left: -250px;
+    }
+    .ma{
+        width: 240px;
+    }
+    
+}
+@media screen and (max-width:366px) {
+    .fonte{
+        font-size: 40px;
+        width: 220px;
+    }
+    .pizzazzona{
+        left: -250px;
+    }
+    .ma{
+        width:220px
+    }
+    .slogan{
+        font-size: 19px;
     }
 }
 @media screen and (max-width:320px){
@@ -170,5 +310,11 @@
     }
     .ma{
         left: 100px;
+        width: 219px;
+    }.slogan{
+        font-size: 18px;
+    }
+    .fonte{
+        width: 218px;
     }
 }

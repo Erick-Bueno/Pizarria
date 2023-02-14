@@ -18,6 +18,7 @@
     padding-bottom: 30px;
     padding-right: 150px;
     padding-left: 150px;
+    
  
 
 }
@@ -78,7 +79,15 @@
 .list{
     display: flex;
 }
-
+@media screen and (max-width:834px) {
+   .logo{
+        height: 70px;
+        position: absolute;
+        bottom: 20px;
+        right: 200px;
+        width: 70px;
+   }
+}
 @media screen and (max-width:768px) {
    
     .logo{
@@ -89,6 +98,40 @@
         right: 150px;
     }
 }
+@media screen and (max-width:701px) {
+  .ColHor{
+    display: none;
+  }
+  .fut{
+    padding-bottom: 75px;
+  }
+  
+}
+@media screen and (max-width:529px) {
+    .logo{
+        margin: -40px;
+        bottom: 70px;
+    }
+    .footList{
+        padding: 20px;
+        padding-bottom: 80px;
+    }
+}
+@media screen and (max-width:491px) {
+   .cop{
+    width: 200px;
+   }
+}
+@media screen and (max-width:443px) {
+    .fut{
+        padding-left: 110px;
+        
+    }
+    .logo{
+        right: 130px;
+    }
+    
+}
 @media screen and (max-width:425px){
     .ColHor{
         display: none;
@@ -96,6 +139,7 @@
     .fut{
         padding-left: 20px;
         padding-right: 20px;
+      
     }
     .logo{
         right: 120px;
@@ -104,11 +148,18 @@
     .footList{
         padding: 20px;
         margin-left: 40px;
+        
     }
     .logo{
-        left: 140px;
+        left: 100px;
     }
+    .cop{
+       margin-top: 40px;
+       margin-left: 80px;
+    }
+    
 }
+
 @media screen and (max-width:375px){
     .logo{
         left: 120px;
@@ -121,6 +172,11 @@
     .footList{
         padding: 11px;
         
+    }
+    .cop{
+        margin-left: 42px;
+        margin-top: 60px;
+        margin-bottom: -40px;
     }
    
 }
