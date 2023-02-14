@@ -150,8 +150,8 @@
     .logo{
         left: 100px;
     }
-    .cop{
-      
+    .fut{
+        padding-top: 50px;
     }
     
 }
@@ -160,6 +160,7 @@
     .logo{
      
     }
+    
 }
 @media screen and (max-width:320px){
     .logo{
