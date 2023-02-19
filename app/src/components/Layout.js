@@ -2,6 +2,7 @@ import Footer from "./footer"
 import Header from './Header'
 import Sidebar from "./Sidebar"
 import styles from '../styles/Layout.module.css'
+import Slider from "./slider"
 export default function Layout({children}){
     return(
         <>
@@ -12,10 +13,12 @@ export default function Layout({children}){
                         
                             {children}
                             <Sidebar></Sidebar>
+                            
                         
 
 
-                </div>
+            </div>
+                    <Slider></Slider>
               
                     <Footer></Footer>
                 
