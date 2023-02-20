@@ -62,6 +62,7 @@
 }
 .item_selecionado{
     opacity: 1;
+    transition: 0.5s;
    
 }
 .pizzas{
