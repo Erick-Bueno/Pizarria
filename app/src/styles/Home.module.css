@@ -13,6 +13,8 @@
 .ma{
     position: absolute;
     left: 600px;
+    animation-name: aparecer;
+    animation-duration: 1s;
    
     
     
@@ -68,6 +70,14 @@
     50%{transform: translate(50%);}
     100%{transform: translate(10%);}
 }
+@keyframes aparecer {
+    from{opacity: 0; transform: translateX(-50px);}
+    to{opacity: 1;}
+}
+@keyframes pizza {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
 .contSeta{
     position: relative;
 }
@@ -77,6 +87,8 @@
     top: 150px;
     width: 700px;
     transform: rotate(50deg);
+    animation-name: pizza;
+    animation-duration: 2s;
 }
 
 @media screen and (max-width:2560px) {
