@@ -1,0 +1,26 @@
+.fundo{
+    background-color: black;
+    display: flex;
+    position: relative;
+   
+}
+.contFundo{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+.pa{
+    font-family: 'Oswald', sans-serif;
+    width: 500px;
+    color: rgb(190, 187, 187);
+    font-size: 18px;
+}
+.massa{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    /*object-fit: cover;
+    object-position: -20% ;*/
+    right: 50px;
+  
+}
