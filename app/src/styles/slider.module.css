@@ -179,3 +179,79 @@
 .corpizza{
     color:rgb(230, 16, 52)
 }
+
+@media screen and (max-width:2560px) {
+   .image{
+    left: 53px;
+   }
+   .image2{
+    left: 53px;
+   }
+   .image3{
+    left: 53px;
+   }
+   .image4{
+    left: 53px;
+   }
+   .image5{
+    left: 53px;
+   }
+   .image6{
+    left: 53px;
+   }
+}
+@media screen and (max-width:2244px) {
+    .image{
+        left: 30px;
+       }
+       .image2{
+        left: 30px;
+       }
+       .image3{
+        left: 30px;
+       }
+       .image4{
+        left: 30px;
+       }
+       .image5{
+        left: 30px;
+       }
+       .image6{
+        left: 30px;
+       }
+}
+@media screen and (max-width:425px) {
+    .titulopizza{
+        left: 45px;
+    }
+}
+@media screen and (max-width:320px) {
+    .item{
+        width: 600px;
+        height: 400px;
+        padding-right: 320px;
+        border-radius: 20px;
+    }
+    .titulopizza{
+        left: 30px;
+    }
+    .image{
+        left: 10px;
+       
+    }
+       .image2{
+        left: 10px;
+       }
+       .image3{
+        left: 10px;
+       }
+       .image4{
+        left: 10px;
+       }
+       .image5{
+        left: 10px;
+       }
+       .image6{
+        left: 10px;
+       }
+}

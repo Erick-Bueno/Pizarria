@@ -2,25 +2,108 @@
     background-color: black;
     display: flex;
     position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-left: 100px;
+    padding-bottom: 120px;
    
 }
-.contFundo{
-    padding-top: 50px;
-    padding-left: 100px;
-    padding-bottom: 50px;
-}
+
 .pa{
     font-family: 'Oswald', sans-serif;
     width: 500px;
     color: rgb(190, 187, 187);
     font-size: 18px;
+   
 }
 .massa{
-    position: absolute;
     width: 600px;
     height: 500px;
     /*object-fit: cover;
     object-position: -20% ;*/
-    right: 50px;
+   
   
 }
+.vermenu2{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+@media screen and (max-width:1185px) {
+  .massa{
+    width: 500px;
+    height: 400px;
+   
+  }
+}
+@media screen and (max-width:1095px) {
+    .massa{
+       object-fit: cover;
+    object-position: -70% ;
+    position: absolute;
+    right: 0;
+    }
+    .pa{
+        margin-right: 400px;
+    }
+  }
+
+  @media screen and (max-width:998px) {
+   .contFundo{
+    position: absolute;
+   }
+   .pa{
+    width: 300px;
+   }
+   .fundo{
+    padding-top: 350px;
+    padding-bottom: 350px;
+   }
+  }
+  @media  screen and (max-width:798px) {
+    .massa{
+        object-position: -150% ;
+    }
+    .contFundo{
+        width: 400px;
+        left: 55px;
+    }
+    
+    
+  }
+  @media screen and ( max-width: 666px){
+    .massa{
+        object-position: -250%;
+    }
+  }
+  @media screen and ( max-width: 570px){
+    .pa{
+        width: 200px;
+    }
+  }
+  @media screen and ( max-width: 570px){
+   .massa{
+    object-position: -300%;
+   }
+  }
+  @media screen and ( max-width:450px){
+    .contFundo{
+        width: 200px;
+        left: 12px;
+    }
+    
+  }
+  @media screen and ( max-width:395px){
+    .massa{
+        object-position: -350%;
+    }
+    
+  }
+  @media screen and ( max-width:320px){
+    .massa{
+        object-position: -400%;
+    }
+    
+  }
