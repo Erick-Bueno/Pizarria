@@ -136,6 +136,16 @@
         width: 40%;
     }
 }
+@media screen and (max-width:600px) {
+   .abrirmenu{
+    width: 50%;
+   }
+}
+@media screen and (max-width:483px) {
+    .abrirmenu{
+        width: 60%;
+    }
+}
 @media screen and (max-width:425px){
     .abrirmenu{
         width: 70%;
