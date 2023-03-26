@@ -1,5 +1,8 @@
 .fundo{
-    background-color: rgb(43, 40, 40);
+
+    background-image: url('/images/tetdef.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     position: relative;
     justify-content: center;
