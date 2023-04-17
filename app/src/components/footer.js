@@ -16,15 +16,7 @@ export default function Footer(){
                     </section>
                                 <section>
                     
-                    <ul className={styles.footList}>
-                        <li className={styles.equipe}>EQUIPE DE PRODUÇÃO:</li>
-                        <li>Erick</li>
-                        <li>Matias</li>
-                        <li>Arthur</li>
-                        <li>Matheus</li>
-                        <li>Rogaciano</li>
-                        <li>Gabriel</li>
-                    </ul>
+                 
                     
                     </section>
                 </section>
